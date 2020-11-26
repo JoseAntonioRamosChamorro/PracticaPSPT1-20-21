@@ -300,8 +300,9 @@ public class Main extends JFrame {
 					if (choice.getSelectedItem() == "Gestion") {
 						choice.remove("Gestion");
 						//Cerrar
-		
 						mg.setVisible(false);
+						p.setVisible(false);
+						pe.setVisible(false);
 						PA.setVisible(false);
 						PB.setVisible(false);
 						PC.setVisible(false);
@@ -313,8 +314,8 @@ public class Main extends JFrame {
 						FC.setVisible(false);
 						FM.setVisible(false);
 						CB.setVisible(false);
-						p.setVisible(false);
-						pe.setVisible(false);
+						
+						
 					}else {
 						System.out.println("No se selecciono nada");
 					}
